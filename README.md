@@ -1,58 +1,69 @@
+An Australian medical student building tools for my own study, plus a
+couple of things for the machine I study on. Everything here is free and
+open, and everything here is something I use.
+
+---
+
 ## A to E
 
-5,509 single-best-answer clinical vignettes for the final-year Australian MD.
-Paediatrics, Obstetrics and Gynaecology, Psychiatry and Medicine at parity,
-five difficulty tiers, Australian units and guideline citations throughout.
-Reference-ranges panel, study and test modes. Free, no signup.
+A practice MCQ bank for the clinical years of an Australian medical
+degree. 7,122 single-best-answer vignettes across paediatrics,
+obstetrics and gynaecology, psychiatry and adult medicine, held at
+parity, with per-option rationales, Australian units and Australian
+guideline citations. Difficulty tracks how much reasoning a question
+demands, not how obscure the topic is.
+
+Study mode explains as you go; test mode holds the answers to the end.
+A reference-values panel covers the normal ranges you need while
+answering, including paediatric age bands and pregnancy.
 
 **[mord58562.github.io/a-to-e](https://mord58562.github.io/a-to-e/)** ·
 [source](https://github.com/mord58562/a-to-e)
 
 ---
 
-## TheAnkiDote
+## The AnkiDote
 
-Medical reference inside the Anki reviewer. Around 4,800 conditions, drugs,
-signs and abbreviations underlined on your own cards, with written summaries,
-Australian units and guideline links. StatPearls, DrugBank and UpToDate docks,
-and a bring-your-own-account AI chat. Corrected content ships without an
-add-on update.
+Anki tells you whether you remembered a card. It does not tell you what
+the card is talking about. This add-on underlines the conditions, drugs,
+signs and abbreviations already written on your own cards and explains
+them on hover, with StatPearls, DrugBank and UpToDate a keystroke away,
+so looking something up does not mean leaving the reviewer.
 
-```
-brew install --cask anki
-```
+Written for Australian medical students, so drug names, units and
+thresholds follow Australian practice. The reference library is a
+separate file from the add-on and updates itself, so a corrected dose
+reaches you without waiting for a release.
 
 **[Install from AnkiWeb](https://ankiweb.net/shared/info/720072719)** ·
 [source](https://github.com/mord58562/theankidote)
 
 ---
 
-## Earshot AutoGain
+## Jury
 
-An AUv3 audio effect for macOS that rides gain slowly enough not to be heard.
-A peak follower with a long release steers level toward a target at 0.2 dB/s
-down and 0.02 dB/s up, with a 5 ms look-ahead brickwall limiter behind it.
-Twelve automatable parameters. Loads in any AUv3 host.
+Nothing on your Mac needs deleting today. Jury watches Documents and
+Downloads, moves the obviously disposable things into a dated quarantine
+folder where they stay recoverable for 30 days, and never touches
+anything else. On Sundays it writes a digest that groups duplicate
+variants, flags downloads you have forgotten, and hands you paste-ready
+commands for the decisions it will not make for you.
 
-```
-git clone https://github.com/mord58562/earshot-autogain.git
-cd earshot-autogain && ./install.sh
-```
+It will not delete your files. That is the whole design.
 
-[source](https://github.com/mord58562/earshot-autogain)
+[source](https://github.com/mord58562/jury)
 
 ---
 
-## jury
+## Earshot AutoGain
 
-macOS cleanup with a 30-day undo. A launchd monitor quarantines junk behind a
-cooling window, an open-file check and a daily cap, restorable the whole time.
-A Sunday digest clusters duplicate variants, flags stale downloads and writes
-paste-ready Trash commands for anything it will not touch itself.
+An AUv3 effect for macOS that rides gain slowly enough that you do not
+hear it working. It moves 0.2 dB per second down and 0.02 dB per second
+up, which is far below the rate at which a level change registers as an
+event, with a 5 ms look-ahead limiter behind it for anything that
+arrives faster than that. For material that drifts in level over minutes
+rather than seconds.
 
-```
-git clone https://github.com/mord58562/jury.git
-cd jury && ./install.sh
-```
+Apple Silicon, macOS 13 or later.
 
-[source](https://github.com/mord58562/jury)
+[source](https://github.com/mord58562/earshot-autogain)
