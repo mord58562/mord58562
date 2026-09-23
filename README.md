@@ -40,7 +40,6 @@ reaches you without waiting for a release.
 
 ---
 
-
 ## Earshot AutoGain
 
 An AUv3 effect for macOS that rides gain slowly enough that you do not
