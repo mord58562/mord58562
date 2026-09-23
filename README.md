@@ -40,20 +40,6 @@ reaches you without waiting for a release.
 
 ---
 
-## Jury
-
-Nothing on your Mac needs deleting today. Jury watches Documents and
-Downloads, moves the obviously disposable things into a dated quarantine
-folder where they stay recoverable for 30 days, and never touches
-anything else. On Sundays it writes a digest that groups duplicate
-variants, flags downloads you have forgotten, and hands you paste-ready
-commands for the decisions it will not make for you.
-
-It will not delete your files. That is the whole design.
-
-[source](https://github.com/mord58562/jury)
-
----
 
 ## Earshot AutoGain
 
